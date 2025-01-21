@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <title>contact me</title>
+    <style>
+        .logo a{
+            text-decoration: none;
+        }
+        #contact form {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+           
+        #contact form input{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="../index.html">Habesha Jobs</a></div>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="../pages/video-editing.html">Video Editing</a>
+            <a href="../pages/web-development.html">Web Development</a>
+            <a href="../pages/contact.html">Contact</a>
+        </nav>
+    </header>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to collaborate or have any inquiries, feel free to reach out!</p>
+        <form action="https://formspree.io/f/meoowyey" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required style="width: 300px; padding: 10px; margin: 10px 0; border-radius: 5px; border: none;">
+            <input type="email" name="email" placeholder="Your Email" required style="width: 300px; padding: 10px; margin: 10px 0; border-radius: 5px; border: none;">
+            <textarea placeholder="Your Message" name="Message" required style="width: 300px; padding: 10px; margin: 10px 0; border-radius: 5px; border: none; height: 100px;"></textarea>
+            <button type="submit" name="submit" style="background: #1ec1ff; color: #fff; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 Portfolio Website. All Rights Reserved. made by @xoxo.</p>
+    </footer>
+</body>
+</html>
